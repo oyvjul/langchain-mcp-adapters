@@ -1,21 +1,36 @@
 {
   "name": "langchain-mcp-adapters",
   "version": "1.0.0",
-  "description": "",
+  "description": "LangChain MCP adapter for integrating Model Context Protocol with LangChain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node example.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oyvjul/langchain-mcp-adapters.git"
   },
-  "keywords": [],
+  "keywords": [
+    "langchain",
+    "mcp",
+    "model-context-protocol",
+    "langgraph",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/oyvjul/langchain-mcp-adapters/issues"
   },
-  "homepage": "https://github.com/oyvjul/langchain-mcp-adapters#readme"
+  "homepage": "https://github.com/oyvjul/langchain-mcp-adapters#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "@langchain/core": "^1.0.5",
+    "@langchain/langgraph": "^1.0.2",
+    "@langchain/mcp-adapters": "^1.0.0",
+    "@langchain/openai": "^1.1.2"
+  }
 }
